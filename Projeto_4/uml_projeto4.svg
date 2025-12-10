@@ -1,0 +1,45 @@
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Aluno Class -->
+  <rect x="50" y="40" width="300" height="300" fill="white" stroke="black" stroke-width="2"></rect>
+  <text x="140" y="60" font-family="Arial" font-size="16" font-weight="bold">Aluno</text>
+
+  <!-- Aluno Attributes -->
+  <line x1="50" y1="90" x2="350" y2="90" stroke="black" stroke-width="2"></line>
+  <text x="60" y="115" font-family="Arial" font-size="14">- nome: string</text>
+  <text x="60" y="140" font-family="Arial" font-size="14">- matricula: string</text>
+  <text x="60" y="165" font-family="Arial" font-size="14">- curso: string</text>
+
+  <!-- Aluno Methods -->
+  <line x1="50" y1="185" x2="350" y2="185" stroke="black" stroke-width="2"></line>
+  <text x="60" y="210" font-family="Arial" font-size="14">+ Aluno()</text>
+  <text x="60" y="235" font-family="Arial" font-size="14">+ Aluno(nome, mat, curso)</text>
+  <text x="60" y="260" font-family="Arial" font-size="14">+ exibirInformacoes(): void</text>
+  <text x="60" y="285" font-family="Arial" font-size="14">+ getNome(): string</text>
+  <text x="60" y="310" font-family="Arial" font-size="14">+ getMatricula(): string</text>
+  <text x="60" y="335" font-family="Arial" font-size="14">+ getCurso(): string</text>
+
+  <!-- Disciplina Class -->
+  <rect x="400" y="40" width="300" height="350" fill="white" stroke="black" stroke-width="2"></rect>
+  <text x="490" y="60" font-family="Arial" font-size="16" font-weight="bold">Disciplina</text>
+
+  <!-- Disciplina Attributes -->
+  <line x1="400" y1="90" x2="700" y2="90" stroke="black" stroke-width="2"></line>
+  <text x="410" y="115" font-family="Arial" font-size="14">- nome: string</text>
+  <text x="410" y="140" font-family="Arial" font-size="14">- cargaHoraria: int</text>
+  <text x="410" y="165" font-family="Arial" font-size="14">- nota: float</text>
+
+  <!-- Disciplina Methods -->
+  <line x1="400" y1="185" x2="700" y2="185" stroke="black" stroke-width="2"></line>
+  <text x="410" y="210" font-family="Arial" font-size="14">+ Disciplina()</text>
+  <text x="410" y="235" font-family="Arial" font-size="14">+ Disciplina(nome, ch, nota)</text>
+  <text x="410" y="260" font-family="Arial" font-size="14">+ setNota(float)</text>
+  <text x="410" y="285" font-family="Arial" font-size="14">+ getNota(): float</text>
+  <text x="410" y="310" font-family="Arial" font-size="14">+ getNome(): string</text>
+  <text x="410" y="335" font-family="Arial" font-size="14">+ friend verificarAprovacao()</text>
+
+  <!-- Relationship Line -->
+  <line x1="350" y1="200" x2="400" y2="200" stroke="black" stroke-width="2"></line>
+  <text x="355" y="190" font-family="Arial" font-size="12">usa</text>
+
+</svg>
